@@ -1,7 +1,24 @@
 aid: shardsecure
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shardsecure.png
 name: ShardSecure
-description: ShardSecure is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ShardSecure is a data security company providing agentless, file-level data protection
+  that keeps sensitive data private, resilient, and compliant across on-premises, cloud, and hybrid
+  or multi-cloud environments. Its platform uses microsharding to cryptographically fragment and
+  distribute data so exfiltrated fragments are unintelligible, adds ransomware detection with
+  self-healing data integrity, and extends to securing AI inference data through an MCP Secure
+  Gateway. ShardSecure is a portfolio company of 500 Global and is tracked in the API Evangelist
+  network; it publishes no public API or developer portal as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/shardsecure/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Data Security
+- Encryption
+- Ransomware Protection
+- Data Resilience
+- Cloud Security
+- Data Privacy
+- AI Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/shardsecure-domain-security.yml
 - type: Website
   url: https://shardsecure.com
+- type: Blog
+  url: https://shardsecure.com/blog
+- type: PrivacyPolicy
+  url: https://shardsecure.com/privacy-policy
+- type: Support
+  url: https://shardsecure.atlassian.net/servicedesk/customer/portals
+- type: SignUp
+  url: https://go.shardsecure.com/spark/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
