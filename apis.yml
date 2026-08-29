@@ -31,6 +31,9 @@ description: ShardSecure is a data security company providing agentless, file-le
   Gateway. ShardSecure is a portfolio company of 500 Global and is tracked in the API Evangelist
   network; it publishes no public API or developer portal as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/shardsecure/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "ShardSecure is a portfolio company of 500 Global and is tracked in the API Evangelist network; it publishes no public API or developer portal as of this enrichment pass."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
